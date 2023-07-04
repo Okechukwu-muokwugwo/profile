@@ -65,8 +65,8 @@ body {
 
 .tech-stack {
   position: absolute;
-  left: 25px;
-  top: 250px;
+  left: 0;
+  top: inherit;
   right: 0;
   bottom: 0;
   width: auto;
@@ -87,14 +87,16 @@ body {
 }
 
 .see-project {
-  position: absolute;
+  position: relative;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #fff;
-  width: auto;
-  left: 25px;
-  top: 300px;
-  margin-left: 50px;
+  width: 80%;
+  top: 250px;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
   padding: 10px;
   border: none;
   border-radius: 60px;
@@ -113,123 +115,6 @@ body {
 .contact-msg {
   padding: 24px;
   width: 80%;
-}
-
-/*
-======================================
-Modal view
-*/
-
-.modal-menu {
-  display: flex;
-  justify-content: space-around;
-  text-align: right;
-  font-size: 12px;
-  padding-right: 24px;
-  padding-top: 24px;
-}
-
-.modal-container {
-  box-sizing: border-box;
-  margin-top: 62px;
-  margin-left: 13px;
-  margin-right: 13px;
-  width: auto;
-  height: 100vw;
-  border: 3px solid #fff;
-  border-radius: 30px;
-  box-shadow: 0 34px 104px 0 rgba(0, 0, 0, 0.25) ;
-}
-
-.close-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: -10px;
-  width: 43px;
-  height: 43px;
-  padding: 10px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-  border-radius: 50%;
-  background: #4456fb;
-  font-size: 40px;
-  color: #fff;
-}
-
-.project-screenshot {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: auto;
-}
-
-.profile-info {
-  position: absolute;
-  top: 115px;
-  left: 18px;
-  font-family: 'Sora', sans-serif;
-  padding: 10px;
-  text-align: center;
-}
-
-.preview {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 25px;
-}
-
-.preview-thumbnail {
-  border: 2px solid #f9855b;
-  border-radius: 6px;
-}
-
-.modal-tech-stack {
-  width: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.modal-tech-btn {
-  width: 91px;
-  height: 30px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  background: #4f5461;
-  color: #e6e9f0;
-  border: none;
-  border-radius: 24px;
-}
-
-.see-btns {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 13px;
-}
-
-.modal-project-title {
-  margin-top: 34px;
-  margin-bottom: 22px;
-  margin-left: 18px;
-  font-family: 'Sora', sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  color: #4f5461;
-}
-
-.description {
-  font-family: 'Sora', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  padding-left: 20px;
-  padding-right: 17px;
-  padding-top: 21px;
-  margin-bottom: 34px;
-  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -280,15 +165,15 @@ Modal view
   }
 
   .see-project {
-    position: absolute;
-    left: 20px;
-    top: 158px;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    right: 50%;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     color: #fff;
     width: auto;
     padding: 10px;
-    margin-left: 0;
     border: none;
     border-radius: 24px;
     background: #4456fb;
@@ -313,4 +198,31 @@ Modal view
     font-size: 16px;
     font-weight: 400;
   }
+}
+
+/*
+MailSent Styling
+*/
+
+.mail-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: #ddd;
+}
+
+.mail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 0;
+  background: #d5d5d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
