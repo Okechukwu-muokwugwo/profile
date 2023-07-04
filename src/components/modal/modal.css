@@ -26,38 +26,6 @@ Modal view
   box-shadow: 0 4px 10px rgba(157, 154, 154, 0.902);
 }
 
-.fade-appear {
-  opacity: 0;
-  z-index: 1;
-}
-
-.fade-appear.fade-appear-active {
-  opacity: 1;
-  transform: opacity 5000ms ease;
-}
-
-.fade-enter {
-  opacity: 1;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transform: opacity 5000ms ease;
-}
-
-.fade-exit {
-  opacity: 1;
-}
-
-.fade-exit.fade-exit-active {
-  opacity: 0;
-  transform: opacity 5000ms ease;
-}
-
-.fade-exit-done {
-  opacity: 0;
-}
-
 .modal-menu {
   display: flex;
   flex-direction: column;
