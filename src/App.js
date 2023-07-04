@@ -1,19 +1,24 @@
 import React from 'react';
 import {
-  createBrowserRouter, createRoutesFromElements, RouterProvider, Route,
+  createBrowserRouter, RouterProvider,
 } from 'react-router-dom';
-import Home from './pages/Homepage';
 import ErrorPage from './pages/errorPage';
 import './App.css';
+import Home from './pages/Homepage';
+import MailSent from './pages/MailSent';
 
 const App = () => {
-  const router = createBrowserRouter((
-    createRoutesFromElements(
-      <Route path="/" element={<Home />}>
-        <Route path="/errorpage" element={<ErrorPage />} />
-      </Route>,
-    )
-  ));
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: '/mailsent',
+      element: <MailSent />,
+    },
+  ]);
 
   return (
     <RouterProvider router={router} />

@@ -6,7 +6,7 @@ import {
 import '../App.css';
 
 const Intro = () => (
-  <div className="w-full md:h-[60vw] bg-[url('./img/mobile-background.svg')] md:bg-[url('./img/header-shape.svg')] md:bg-[top_left_250px] bg-cover bg-no-repeat text-white font-sora md:font-roboto" id="intro">
+  <div className="w-full md:h-[60vw] bg-[url('./resources/mobile-background.svg')] md:bg-[url('./resources/header-shape.svg')] md:bg-[top_left_250px] bg-cover bg-no-repeat text-white font-sora md:font-roboto" id="intro">
     <div className="p-6">
       <div className="md:absolute md:mx-10 md:left-1/3 md:top-10 ">
         <h1 className="title">Okechukwu</h1>

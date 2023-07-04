@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -64,8 +65,8 @@ body {
 
 .tech-stack {
   position: absolute;
-  left: 25px;
-  top: 250px;
+  left: 0;
+  top: inherit;
   right: 0;
   bottom: 0;
   width: auto;
@@ -86,14 +87,16 @@ body {
 }
 
 .see-project {
-  position: absolute;
+  position: relative;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #fff;
-  width: auto;
-  left: 25px;
-  top: 300px;
-  margin-left: 50px;
+  width: 80%;
+  top: 250px;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
   padding: 10px;
   border: none;
   border-radius: 60px;
@@ -162,15 +165,15 @@ body {
   }
 
   .see-project {
-    position: absolute;
-    left: 20px;
-    top: 158px;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    right: 50%;
     font-family: 'Poppins', sans-serif;
     font-size: 0.9rem;
     color: #fff;
     width: auto;
     padding: 10px;
-    margin-left: 0;
     border: none;
     border-radius: 24px;
     background: #4456fb;
@@ -195,4 +198,31 @@ body {
     font-size: 16px;
     font-weight: 400;
   }
+}
+
+/*
+MailSent Styling
+*/
+
+.mail-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: #ddd;
+}
+
+.mail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 0;
+  background: #d5d5d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }

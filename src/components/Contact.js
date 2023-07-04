@@ -1,12 +1,27 @@
-import React from 'react';
-import { Form } from 'react-router-dom';
+import React, { useRef } from 'react';
+import { Form, useNavigate } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
 import { AiFillGithub } from 'react-icons/ai';
 import {
   FaTwitter, FaLinkedinIn, FaAngellist, FaMedium,
 } from 'react-icons/fa';
 
 const Contact = () => {
-  const inputClass = 'w-[82vw] md:w-[22.5vw] mt-[18px] md:mb-[21px] p-4 border rounded-2xl focus:outline-none';
+  const form = useRef();
+  const navigate = useNavigate();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_da2e4jk', 'template_6ccvsqf', form.current, 'JBKhcxFN8lQ9stRBR')
+      .then(() => {
+        navigate('/mailsent');
+      }, (error) => {
+        window.confirm(error.text);
+      });
+    e.target.reset();
+  };
+
   return (
     <div className="w-full mx-auto font-roboto" id="contact">
       <h1 className="contact-title">Interested in collaborating?</h1>
@@ -15,35 +30,40 @@ const Contact = () => {
         a feature that you need built or a project that need coding,
         I’d love to help you with it.
       </p>
-      <Form method="post" action="#contact" className="w-full bg-[url('./img/contact-background.png')] md:bg-[url('./img/footer-shape.svg')] bg-cover bg-no-repeat">
+      <Form onSubmit={sendEmail} ref={form} className="w-full bg-[url('./resources/contact-background.png')] md:bg-[url('./resources/footer-shape.svg')] bg-cover bg-no-repeat">
         <div className="mx-6 md:ml-72 md:mx-20 flex flex-col md:flex-row md:space-x-10">
           <label htmlFor="name">
             <input
               type="text"
               id="name"
-              placeholder="Full name*"
-              className={inputClass}
+              name="user_name"
+              placeholder="Full Name"
+              className="w-[82vw] md:w-[22.5vw] mt-[18px] md:mb-[21px] p-4 border rounded-2xl focus:outline-none"
             />
           </label>
           <label htmlFor="email">
             <input
               type="email"
               id="email"
-              placeholder="E-mail*"
-              className={inputClass}
+              name="user_email"
+              placeholder="Email*"
+              required
+              className="w-[82vw] md:w-[22.5vw] mt-[18px] md:mb-[21px] p-4 border rounded-2xl focus:outline-none"
             />
           </label>
         </div>
         <textarea
           minLength={10}
           rows={6}
+          name="message"
           placeholder="Message*"
-          className="w-5/6 md:w-1/2 mx-6 mt-[16px] md:ml-72 md:mx-20 md:pl-20 mb-[21px] md:pe-s p-2 border rounded-3xl outline-none placeholder:pl-5 placeholder:pt-5"
+          required
+          className="w-5/6 md:w-1/2 mx-6 mt-[16px] md:ml-72 md:mx-20 md:pl-4 mb-[21px] p-2 border rounded-3xl outline-none pt-5"
         />
         <div className="mx-6 md:ml-56">
           <button
             type="submit"
-            className="w-full mb-[36px] md:w-1/5 md:ml-16 p-4 rounded-full bg-[#fa4969] font-bold text-white"
+            className="w-full mb-[36px] md:w-1/5 md:ml-16 p-4 rounded-full bg-[#fa4969] hover:bg-purple-500 font-bold text-white"
           >
             Get in touch
           </button>
