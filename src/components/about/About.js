@@ -1,12 +1,12 @@
 import React from 'react';
+import './about.css';
 
 const About = () => {
-  const toolsetDiv = 'md:w-2/3 mt-3 mb-3 bg-[#f5f8fd] rounded-2xl';
   const toolsetH1 = 'p-4 font-bold text-xl';
   const toolsetUl = 'list-none p-6 space-y-4 text-[#737986] text-xl';
   return (
-    <div className="md:ml-56 mt-[60px] p-6" id="about">
-      <div className="md:mx-10">
+    <div className="about-container" id="about">
+      <div className="about-content">
         <h1 className="my-3 text-4xl font-bold text-[#4f5461]">About me</h1>
         <p className="md:w-1/2 text-[#737986] text-justify py-2">
           I&apos;m a frontend developer with a passion for aesthetic and intuitive design.
@@ -28,7 +28,7 @@ const About = () => {
           </button>
         </a>
         <div className="m-full md:flex md:space-x-5 md:mb-[100px] text-[#4f5461]">
-          <div className={toolsetDiv}>
+          <div className="about-toolset">
             <h1 className={toolsetH1}>Languages</h1>
             <ul className={toolsetUl}>
               <li>JavaScript(ES5/ES6)</li>
@@ -37,7 +37,7 @@ const About = () => {
               <li>CSS</li>
             </ul>
           </div>
-          <div className={toolsetDiv}>
+          <div className="about-toolset">
             <h1 className={toolsetH1}>Frameworks</h1>
             <ul className={toolsetUl}>
               <li>React</li>
@@ -47,7 +47,7 @@ const About = () => {
               <li>Tailwind</li>
             </ul>
           </div>
-          <div className={toolsetDiv}>
+          <div className="about-toolset">
             <h1 className={toolsetH1}>Skills</h1>
             <ul className={toolsetUl}>
               <li>Git</li>

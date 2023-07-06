@@ -1,8 +1,8 @@
 import React from 'react';
-import Intro from '../components/Intro';
-import Portfolio from '../components/Portfolio';
-import About from '../components/About';
-import Contact from '../components/Contact';
+import Intro from '../components/intro/Intro';
+import Portfolio from '../components/portfolio/Portfolio';
+import About from '../components/about/About';
+import Contact from '../components/contact/Contact';
 import Sidebar from '../components/Sidebar';
 
 const Home = () => (
