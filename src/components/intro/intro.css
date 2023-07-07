@@ -13,9 +13,59 @@ body {
 }
 
 .intro-content {
-  padding: 39px 30px 36px 30px;
+  padding: 0px 30px 36px 30px;
+  color: #FFF;
   background: url('/src/resources/mobile-background.svg');
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px 10px 0;
+}
+
+.author-name {
+  margin-top: 132px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.3%;
+  flex-shrink: 0;
+}
+
+.author-role {
+  margin-top: 20px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105.3%;
+}
+
+.author-summary {
+  margin-top: 34px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+
+}
+
+.search-bar {
+  height: 104px;
+  flex-shrink: 0;
+  padding: 10px 17px 10px 17px;
+  border-radius: 20px;
+  background: #FFF;
+}
+
+.social-media {
+  display: flex;
+  font-size: 28px;
+  color: #4152ed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px ;
 }
 
 @media (min-width: 768px) {
