@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Link]()
+- [Live Link](https://okechukwu-muokwugwo.github.io/profile)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
