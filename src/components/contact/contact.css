@@ -4,74 +4,79 @@ body {
 }
 
 .contact-container {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  font-family: 'Sora', sans-serif;
 }
 
 .contact-content {
-  font-family: 'Roboto', sans-serif;
-  margin: 35px 28px;
+  margin: 49px 35px 28px 35px;
+  flex-shrink: 0;
 }
 
 .contact-title {
-  /* padding: 24px; */
-  font-family: 'Roboto', sans-serif;
   font-size: 28px;
   font-weight: 700;
+  padding-left: 37px;
+  line-height: 105.3%;
   color: #4f5461;
 }
 
 .contact-text {
-  /* padding: 24px; */
+  margin: 16px 0 60px 0;
+  padding-left: 37px;
+  color: #737986;
+  font-size: 16px;
+  font-weight: 400;
   width: 80%;
 }
 
 .contact-form {
-  margin: 5% auto;
-
-  /* background: url('/src/resources/contact-background.png') no-repeat center/cover; */
+  background: url('/src/resources/contact-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.contact-form-content {
+.form-items {
+  padding: 37px 21px 0 22px;
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  justify-content: center;
-  align-items: center;
-  gap: 17px;
 }
 
-.contact-input-a {
-  width: 332px;
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.contact-input {
+  margin: 0 0 16px 0;
+  width: 100%;
+  height: 59px;
   border: 1px solid rgba(0, 0, 0, 0.07);
   border-radius: 14px;
   background: #fff;
   box-shadow: 0 7px 15px 0 rgba(95, 104, 186, 0.13);
-  margin: 37px 21px 0 0;
   padding: 16px;
   outline: none;
 }
 
-.contact-input-b {
-  width: 332px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
+.contact-message {
+  width: 100%;
+  height: 185px;
   border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.07);
   background: #fff;
   box-shadow: 0 7px 15px 0 rgba(95, 104, 186, 0.13);
-  margin: 0 21px 0 0;
-  padding: 16px;
   outline: none;
+  font-size: 16px;
+  color: #91959e;
+  padding: 16px;
 }
 
 .get-in-touch-btn {
-  width: 332px;
+  width: 80%;
   height: 59px;
-  margin: 0 21px 36px 22px;
+  margin: 20px 21px 36px 22px;
   background: #fa4969;
-  flex-shrink: 0;
   border-radius: 60px;
   font-family: 'Sora', sans-serif;
   font-size: 16px;
@@ -79,18 +84,26 @@ body {
   color: #fff;
 }
 
-.contact-message {
-  width: 375px;
-  height: 185px;
-  border-radius: 14px;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  background: #fff;
-  box-shadow: 0 7px 15px 0 rgba(95, 104, 186, 0.13);
-  outline: none;
-  font-family: 'Sora', sans-serif;
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  margin: 42px 32px;
+}
+
+.author-email {
+  color: #c5cbfe;
+  text-align: center;
   font-size: 16px;
-  color: #91959e;
-  padding: 16px;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+  color: #fff;
+  padding: 12px;
+  border-bottom: 1px solid #6877ff;
 }
 
 .contact-message::placeholder {
@@ -99,11 +112,7 @@ body {
 
 @media (min-width: 768px) {
   .contact-container {
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    font-family: 'Roboto', sans-serif;
   }
 
   .contact-content {
@@ -111,48 +120,24 @@ body {
   }
 
   .contact-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 28px;
     font-weight: 800;
-    color: #4f5461;
   }
 
   .contact-text {
-    font-family: 'Poppins', sans-serif;
-    color: #737986;
-    font-size: 16px;
-    font-weight: 400;
+    margin-bottom: 20px;
   }
 
   .contact-form {
-    position: absolute;
-    top: 0;
-    left: 301px;
-    right: 0;
-    overflow: hidden;
     background: url('/src/resources/footer-shape.svg');
     background-repeat: no-repeat;
   }
 
-  .contact-form-content {
-    display: flex;
-    flex-direction: column;
-    margin: 41px 0 41px 0;
-  }
-
-  .form-items {
-    display: flex;
-    flex-direction: column;
-  }
-
   .contact-inputs {
-    display: flex;
     flex-direction: row;
     gap: 17px;
   }
 
-  .contact-input-a,
-  .contact-input-b {
+  .contact-input {
     margin: 22px 0 21px 0;
     width: 23.05vw;
   }
@@ -163,17 +148,12 @@ body {
 
   .get-in-touch-btn {
     width: 242px;
-    height: 59px;
-    margin: 41px 0 41px 0;
+    margin: 41px 0 41px 41px;
   }
 
   .contact-details {
-    position: relative;
-    left: 250px;
-    bottom: 100px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    margin: -20px 97px 0 269px;
+    padding-bottom: 20px;
   }
 
   .social-icons {
@@ -190,5 +170,6 @@ body {
   .author-email {
     font-size: 16px;
     color: #c5cbfe;
+    text-align: right;
   }
 }

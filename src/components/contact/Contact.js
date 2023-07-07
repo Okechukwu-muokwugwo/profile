@@ -32,9 +32,7 @@ const Contact = () => {
           a feature that you need built or a project that need coding,
           I’d love to help you with it.
         </p>
-      </div>
-      <Form onSubmit={sendEmail} ref={form} className="contact-form">
-        <div className="contact-form-content">
+        <Form onSubmit={sendEmail} ref={form} className="contact-form">
           <div className="form-items">
             <div className="contact-inputs">
               <label htmlFor="name">
@@ -43,7 +41,7 @@ const Contact = () => {
                   id="name"
                   name="user_name"
                   placeholder="Full Name"
-                  className="contact-input-a"
+                  className="contact-input"
                 />
               </label>
               <label htmlFor="email">
@@ -53,7 +51,7 @@ const Contact = () => {
                   name="user_email"
                   placeholder="Email*"
                   required
-                  className="contact-input-b"
+                  className="contact-input"
                 />
               </label>
             </div>
@@ -65,13 +63,13 @@ const Contact = () => {
               required
               className="contact-message"
             />
-            <button
-              type="submit"
-              className="get-in-touch-btn"
-            >
-              Get in touch
-            </button>
           </div>
+          <button
+            type="submit"
+            className="get-in-touch-btn"
+          >
+            Get in touch
+          </button>
           <div className="contact-details">
             <p className="author-email">okei.muokwugwo@gmail.com</p>
             <div className="social-icons">
@@ -83,8 +81,8 @@ const Contact = () => {
             </div>
             <p className="author-email">&copy; Okechukwu 2023</p>
           </div>
-        </div>
-      </Form>
+        </Form>
+      </div>
     </div>
   );
 };
