@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.a167f371.css",
+    "main.js": "/profile/static/js/main.56cb2e71.js",
+    "static/media/header-shape.svg": "/profile/static/media/header-shape.5db1ffbec77944e03f6c.svg",
+    "static/media/mobile-background.svg": "/profile/static/media/mobile-background.f33d8c7a62e2e93d60cb.svg",
+    "static/media/aspireafrik.png": "/profile/static/media/aspireafrik.270e20da49176c82b3c8.png",
+    "static/media/contact-background.png": "/profile/static/media/contact-background.e35f67311bc8d768a2e6.png",
+    "static/media/leaderboard.png": "/profile/static/media/leaderboard.04d889609be0502648ae.png",
+    "static/media/maths.png": "/profile/static/media/maths.73913c8c5afe9a7d1f0c.png",
+    "static/media/todo.png": "/profile/static/media/todo.f8edfd1bde3e68110862.png",
+    "static/media/bookstore.png": "/profile/static/media/bookstore.6d555e639e69997a3f0c.png",
+    "static/media/msg-sent.svg": "/profile/static/media/msg-sent.f64327fe6f823ee40e7beb60112227fd.svg",
+    "index.html": "/profile/index.html",
+    "static/media/footer-shape.svg": "/profile/static/media/footer-shape.2f81be6d827b91b34550.svg",
+    "main.a167f371.css.map": "/profile/static/css/main.a167f371.css.map",
+    "main.56cb2e71.js.map": "/profile/static/js/main.56cb2e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a167f371.css",
+    "static/js/main.56cb2e71.js"
+  ]
+}
