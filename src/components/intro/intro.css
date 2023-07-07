@@ -13,8 +13,8 @@ body {
 }
 
 .intro-content {
-  padding: 0px 30px 36px 30px;
-  color: #FFF;
+  padding: 0 30px 36px 30px;
+  color: #fff;
   background: url('/src/resources/mobile-background.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,7 +48,6 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-
 }
 
 .search-bar {
@@ -56,7 +55,7 @@ body {
   flex-shrink: 0;
   padding: 10px 17px 10px 17px;
   border-radius: 20px;
-  background: #FFF;
+  background: #fff;
 }
 
 .social-media {
@@ -65,7 +64,7 @@ body {
   color: #4152ed;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0px 10px 0px ;
+  padding: 10px 0 10px 0;
 }
 
 @media (min-width: 768px) {
