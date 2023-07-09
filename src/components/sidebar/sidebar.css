@@ -33,7 +33,7 @@
     bottom: 0;
     gap: 20px;
     width: 71px;
-    height: 100vw;
+    background: none;
     flex-direction: column;
     justify-content: flex-start;
   }
