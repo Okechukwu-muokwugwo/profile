@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.0b8c8cc4.css",
-    "main.js": "/profile/static/js/main.56cb2e71.js",
+    "main.css": "/profile/static/css/main.dc3c77aa.css",
+    "main.js": "/profile/static/js/main.c3114009.js",
     "static/media/header-shape.svg": "/profile/static/media/header-shape.5db1ffbec77944e03f6c.svg",
     "static/media/mobile-background.svg": "/profile/static/media/mobile-background.f33d8c7a62e2e93d60cb.svg",
     "static/media/aspireafrik.png": "/profile/static/media/aspireafrik.270e20da49176c82b3c8.png",
@@ -13,11 +13,11 @@
     "static/media/msg-sent.svg": "/profile/static/media/msg-sent.f64327fe6f823ee40e7beb60112227fd.svg",
     "index.html": "/profile/index.html",
     "static/media/footer-shape.svg": "/profile/static/media/footer-shape.2f81be6d827b91b34550.svg",
-    "main.0b8c8cc4.css.map": "/profile/static/css/main.0b8c8cc4.css.map",
-    "main.56cb2e71.js.map": "/profile/static/js/main.56cb2e71.js.map"
+    "main.dc3c77aa.css.map": "/profile/static/css/main.dc3c77aa.css.map",
+    "main.c3114009.js.map": "/profile/static/js/main.c3114009.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b8c8cc4.css",
-    "static/js/main.56cb2e71.js"
+    "static/css/main.dc3c77aa.css",
+    "static/js/main.c3114009.js"
   ]
 }
