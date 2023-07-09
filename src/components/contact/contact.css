@@ -4,6 +4,10 @@ body {
 }
 
 .contact-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
   font-family: 'Sora', sans-serif;
 }
 
@@ -30,6 +34,9 @@ body {
 }
 
 .contact-form {
+  position: absolute;
+  left: 0;
+  right: 0;
   background: url('/src/resources/contact-background.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,11 +119,12 @@ body {
 
 @media (min-width: 768px) {
   .contact-container {
+    position: relative;
     font-family: 'Roboto', sans-serif;
   }
 
   .contact-content {
-    margin: 0 0 0 36.9vw;
+    margin-left: 517px;
   }
 
   .contact-title {
@@ -128,8 +136,19 @@ body {
   }
 
   .contact-form {
+    position: absolute;
+    left: 0;
+    left: 301px;
+    right: 0;
     background: url('/src/resources/footer-shape.svg');
     background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form-items {
+    margin-left: 216px;
+    display: flex;
+    flex-direction: column;
   }
 
   .contact-inputs {
@@ -152,8 +171,9 @@ body {
   }
 
   .contact-details {
-    margin: -20px 97px 0 269px;
-    padding-bottom: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
   }
 
   .social-icons {

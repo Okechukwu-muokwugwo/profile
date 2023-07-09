@@ -19,13 +19,13 @@ const Intro = () => (
       </div>
       <div className="search-bar">
         <p className="p-2 text-black">My works in social networks</p>
-        <div className="social-media">
-          <AiFillGithub />
-          <FaTwitter />
-          <FaLinkedinIn />
-          <FaAngellist />
-          <FaMedium />
-        </div>
+        <ul className="social-media">
+          <li><a href="https://github.com/Okechukwu-muokwugwo" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><AiFillGithub /></a></li>
+          <li><a href="https://twitter.com/@excel4eva" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a></li>
+          <li><a href="https://www.linkedin.com/in/okeimuokwugwo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a></li>
+          <li><a href="https://wellfound.com/u/okechukwu-muokwugwo" target="_blank" rel="noopener noreferrer" aria-label="AngelList"><FaAngellist /></a></li>
+          <li><a href="https://medium.com/@excel4va" target="_blank" rel="noopener noreferrer" aria-label="Medium"><FaMedium /></a></li>
+        </ul>
       </div>
 
     </div>

@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -7,31 +5,6 @@ html {
 
 body {
   box-sizing: border-box;
-}
-
-.nav-bar {
-  position: absolute;
-  left: 24px;
-  top: 31px;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
-}
-
-.logo {
-  width: 60px;
-  height: 60px;
-  padding: 10px;
-  border: none;
-  border-radius: 50%;
-  background: #4456fb;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-size: 20px;
-  text-align: center;
 }
 
 .title {
@@ -79,25 +52,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .nav-bar {
-    position: fixed;
-    left: 71px;
-    top: 200px;
-    bottom: 0;
-    gap: 20px;
-    width: 71px;
-    height: 100vw;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
-  .logo {
-    position: fixed;
-    top: 47px;
-    left: 80px;
-    font-family: 'roboto', sans-serif;
-  }
-
   .heading {
     margin-top: 25px;
     margin-left: 246px;

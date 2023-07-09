@@ -1,0 +1,47 @@
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: url('/src/resources/mobile-background.svg');
+  z-index: 1;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  background: #4456fb;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    position: fixed;
+    left: 71px;
+    top: 200px;
+    bottom: 0;
+    gap: 20px;
+    width: 71px;
+    height: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    position: fixed;
+    top: 47px;
+    left: 80px;
+    font-family: 'roboto', sans-serif;
+  }
+}

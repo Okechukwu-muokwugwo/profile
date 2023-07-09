@@ -85,24 +85,19 @@ body {
     top: 0;
     right: 0;
     height: 100vh;
-    padding: 0 0 0 14.72vw;
     background: url('/src/resources/header-shape.svg');
     background-repeat: no-repeat;
-    background-size: auto;
-    overflow: hidden;
+    background-size: cover;
   }
 
   .author {
     display: flex;
     flex-direction: column;
-    margin: 0 10px 10px 0;
+    margin: 0 10px 10px 216px;
   }
 
   .author-name {
-    margin-top: 11.18vw;
-
-    /* width: 721px;
-    height: 100px; */
+    margin-top: 30px;
     color: #fff;
     font-size: 88px;
     font-style: normal;
@@ -133,7 +128,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 90px 10px 0;
+    margin: 10px 90px 10px 216px;
     width: 70%;
     height: 51px;
     flex-shrink: 0;
