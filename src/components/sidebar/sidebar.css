@@ -8,6 +8,7 @@
   align-items: center;
   padding: 10px;
   background: url('/src/resources/mobile-background.svg');
+  background-size: cover;
   z-index: 1;
 }
 
