@@ -9,11 +9,11 @@ const About = () => {
       <div className="about-content">
         <h1 className="my-3 text-4xl font-bold text-[#4f5461]">About me</h1>
         <p className="md:w-1/2 text-[#737986] text-justify py-2">
-          I&apos;m a frontend developer with a passion for aesthetic and intuitive design.
-          I specialize in creating visually appealing and user-friendly interfaces using
-          HTML, CSS, and JavaScript.
-          My goal is to enhance the overall user experience by staying up-to-date with the
-          latest industry trends and technologies.
+          I&apos;m a front-end developer with a passion for aesthetic and intuitive design.
+          I specialize in creating visually appealing and user-friendly interfaces using HTML,
+          CSS, and JavaScript.
+          My goal is to enhance the overall user satisfaction, conversion,
+          and engagement rate of clients&apos; web apps.
         </p>
         <a
           href="https://docs.google.com/document/d/1JJhIaw8DDYj8KjsKxnznArHWEMb0N1vJ0uwncHVcYpc/edit?usp=sharing"
