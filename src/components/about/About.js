@@ -9,9 +9,9 @@ const About = () => {
       <div className="about-content">
         <h1 className="my-3 text-4xl font-bold text-[#4f5461]">About me</h1>
         <p className="md:w-1/2 text-[#737986] text-justify py-2">
-          I&apos;m a front-end developer with a passion for aesthetic and intuitive design.
+          I&apos;m a Software developer with a passion for innovative and lasting solutions.
           I specialize in creating visually appealing and user-friendly interfaces using HTML,
-          CSS, and JavaScript.
+          CSS, and JavaScript on the front-end and Ruby, Rust and Node.js on the back-end.
           My goal is to enhance the overall user satisfaction, conversion,
           and engagement rate of clients&apos; web apps.
         </p>
