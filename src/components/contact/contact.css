@@ -91,6 +91,10 @@ body {
   color: #fff;
 }
 
+.get-in-touch-btn:hover {
+  background: #6877ff;
+}
+
 .contact-details {
   display: flex;
   flex-direction: column;

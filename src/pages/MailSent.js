@@ -1,5 +1,5 @@
 import React from 'react';
-import mailSent from '../resources/msg-sent.svg';
+import mailSent from '../resources/undraw_check.svg';
 
 const MailSent = () => (
   <div className="mail-container">
