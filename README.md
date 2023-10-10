@@ -58,7 +58,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Link](https://okechukwu-muokwugwo.github.io/)
+- [Live Link](https://apt2tell.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
