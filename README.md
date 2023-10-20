@@ -110,9 +110,7 @@ To run tests, run the following command:
 
 👤 **Okechukwu Muokwugwo**
 
-- GitHub: [@githubhandle](https://github.com/Okechukwu-muokwugwo)
-- Twitter: [@twitterhandle](https://twitter.com/excel4eva)
-- LinkedIn: [LinkedIn](LinkedIn.com/in/okeimuokwugwo)
+- GitHub: [@githubhandle](https://github.com/apt2tell)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
