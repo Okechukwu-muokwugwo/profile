@@ -10,7 +10,7 @@ import MailSent from './pages/MailSent';
 const App = () => {
   const router = createBrowserRouter([
     {
-      path: '/profile',
+      path: '/',
       element: <Home />,
       errorElement: <ErrorPage />,
     },
