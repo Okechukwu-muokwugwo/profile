@@ -17,7 +17,7 @@ const About = () => {
           and engagement rate of clients&apos; web apps.
         </p>
         <a
-          href="https://docs.google.com/document/d/1JJhIaw8DDYj8KjsKxnznArHWEMb0N1vJ0uwncHVcYpc/edit?usp=sharing"
+          href="#contact"
           target="_blank"
           rel="noopener noreferrer"
         >

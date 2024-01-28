@@ -72,16 +72,16 @@ const Contact = () => {
           </button>
         </div>
         <div className="contact-details">
-          <p className="author-email">okei.muokwugwo@gmail.com</p>
+          <p className="author-email">apt2tell@gmail.com</p>
           <ul className="social-icons">
-            <li><a href="https://github.com/Okechukwu-muokwugwo" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><AiFillGithub /></a></li>
+            <li><a href="https://github.com/apt2tell" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><AiFillGithub /></a></li>
             <li><a href="https://twitter.com/@excel4eva" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a></li>
             <li><a href="https://www.linkedin.com/in/okeimuokwugwo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a></li>
             <li><a href="https://wellfound.com/u/okechukwu-muokwugwo" target="_blank" rel="noopener noreferrer" aria-label="AngelList"><FaAngellist /></a></li>
             <li><a href="https://medium.com/@excel4va" target="_blank" rel="noopener noreferrer" aria-label="Medium"><FaMedium /></a></li>
           </ul>
 
-          <p className="author-email">&copy; Okechukwu 2023</p>
+          <p className="author-email">&copy; Pete 2023</p>
         </div>
       </Form>
     </div>

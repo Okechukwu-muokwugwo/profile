@@ -6,7 +6,7 @@ const Sidebar = () => (
   <>
     <nav className="nav-bar">
       <div className="logo">
-        <p className="text-center pt-1">OK</p>
+        <p className="text-center pt-1">Pe</p>
       </div>
       {[
         ['Home', '#intro'],

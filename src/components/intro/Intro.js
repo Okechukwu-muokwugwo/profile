@@ -9,7 +9,7 @@ const Intro = () => (
   <div className="intro-container" id="intro">
     <div className="intro-content">
       <div className="author">
-        <h1 className="author-name">Okechukwu</h1>
+        <h1 className="author-name">Pete</h1>
         <p className="author-role">Software Developer</p>
         <p className="author-summary">
           Hello I am a software developer! I can help you build a product, feature or website.
@@ -20,7 +20,7 @@ const Intro = () => (
       <div className="search-bar">
         <p className="p-2 text-black">My works in social networks</p>
         <ul className="social-media">
-          <li><a href="https://github.com/Okechukwu-muokwugwo" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><AiFillGithub /></a></li>
+          <li><a href="https://github.com/apt2tell" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><AiFillGithub /></a></li>
           <li><a href="https://twitter.com/@excel4eva" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><FaTwitter /></a></li>
           <li><a href="https://www.linkedin.com/in/okeimuokwugwo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedinIn /></a></li>
           <li><a href="https://wellfound.com/u/okechukwu-muokwugwo" target="_blank" rel="noopener noreferrer" aria-label="AngelList"><FaAngellist /></a></li>
