@@ -18,7 +18,6 @@ const About = () => {
         </p>
         <a
           href="#contact"
-          target="_blank"
           rel="noopener noreferrer"
         >
           <button
