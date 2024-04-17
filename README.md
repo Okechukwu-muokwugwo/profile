@@ -108,7 +108,7 @@ To run tests, run the following command:
 
 ## 👥 Author <a name="author"></a>
 
-👤 **Okechukwu Muokwugwo**
+👤 **apt2tell**
 
 - GitHub: [@githubhandle](https://github.com/apt2tell)
 
