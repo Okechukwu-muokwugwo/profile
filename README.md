@@ -78,8 +78,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-- `https://github.com/Okechukwu-muokwugwo/todo-app.git` if your're using https or git
-- `git@github.com:Okechukwu-muokwugwo/todo-app.git` if you prefer ssh and hit enter.
+- `https://github.com/apt2tell/todo-app.git` if your're using https or git
+- `git@github.com:apt2tell/todo-app.git` if you prefer ssh and hit enter.
 - create a directory in your preferred location (e.g in the Desktop or Document directory)
 
 ### Install
